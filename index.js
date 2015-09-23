@@ -33,6 +33,7 @@ var formatOptions = function(args) {
     language: args.language || 'en',
     avoid: args.avoid || null,
     sensor: args.sensor || false,
+    durationInTraffic: args.traffic || false,
     key: this.apiKey
   };
 
